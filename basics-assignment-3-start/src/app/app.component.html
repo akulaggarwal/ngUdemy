@@ -11,3 +11,14 @@
     </div>
   </div>
 </div>
+
+<button
+  class="btn btn-primary"
+  (click)="onBtnClick()"
+>
+  Display Details
+</button>
+<p *ngIf="showSecret">Secret Doors</p>
+
+<!--<app-button-log *ngFor="let logItem of clickLog"></app-button-log>-->
+<p *ngFor="let logItem of clickLog">{{ logItem }}</p>

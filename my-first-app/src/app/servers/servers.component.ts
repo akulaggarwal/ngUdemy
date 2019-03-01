@@ -10,7 +10,7 @@ export class ServersComponent implements OnInit {
   serverCreateService: string = 'No Server Was Created';
   serverName: string = '';
   serverCreated: boolean = false;
-  servers: Object = [
+  servers: string[] = [
     'Test Server',
     'Test Server 2',
   ];
